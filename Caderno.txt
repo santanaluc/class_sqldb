@@ -50,4 +50,4 @@ Comando ALTER:
 	ALTER TABLE <nome-da-tabela>
 		DROP COLUMN (<coluna>)
 
-QUANDO FOR CHAVE PRIMÁRIA, COLOCAR: "not null"
+QUANDO FOR CHAVE PRIMÁRIA, COLOCAR: "not null" a
