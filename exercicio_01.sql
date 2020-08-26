@@ -126,3 +126,17 @@ alter table oferta add foreign key (cd_comprador) references comprador -- erro /
 
 -- oferta - imovel
 alter table oferta add foreign key (cd_imovel) references imovel
+
+
+-- Atividade 2
+
+/* Crie outra tabela com qualquer nome e campos para depois apagar
+utilizando o comando DROP */
+
+create table tabela2 (
+    nome varchar(40),
+    idade char(2),
+    descricao varchar(60)
+)
+
+drop table tabela2
