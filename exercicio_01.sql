@@ -116,7 +116,7 @@ Alter table imovel add foreign key (cd_vendedor) references vendedor
 Alter table imovel add foreign key (cd_bairro, cd_cidade, sg_estado) references bairro -- erro / resolvido
 
 -- bairro - cidade
-alter table bairro add foreign key (cd_cidade, sg_estado) references cidade -- erro
+alter table bairro add foreign key (cd_cidade, sg_estado) references cidade -- erro / resolvido
 
 -- cidade - estado
 alter table cidade add foreign key (sg_estado) references estado
