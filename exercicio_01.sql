@@ -113,16 +113,16 @@ alter table faixa_imovel add primary key (cd_faixa)
 Alter table imovel add foreign key (cd_vendedor) references vendedor
 
 -- imovel - bairro
-Alter table imovel add foreign key (cd_bairro, cd_cidade, sg_estado) references bairro -- erro / resolvido
+Alter table imovel add foreign key (cd_bairro, cd_cidade, sg_estado) references bairro
 
 -- bairro - cidade
-alter table bairro add foreign key (cd_cidade, sg_estado) references cidade -- erro / resolvido
+alter table bairro add foreign key (cd_cidade, sg_estado) references cidade
 
 -- cidade - estado
 alter table cidade add foreign key (sg_estado) references estado
 
 -- oferta - comprador
-alter table oferta add foreign key (cd_comprador) references comprador -- erro / resolvido
+alter table oferta add foreign key (cd_comprador) references comprador
 
 -- oferta - imovel
 alter table oferta add foreign key (cd_imovel) references imovel
