@@ -1,7 +1,7 @@
 -- Criando o database 
-CREATE DATABASE fatecrl_exemplos_aula
+CREATE DATABASE fatecrl_ex_aula
 
-use [fatecrl_exemplos_aula]
+use fatecrl_ex_aula
 
 -- Criando as tabelas
 -- Sempre colocar "not null" para chaves primárias
